@@ -1,4 +1,4 @@
-# find_my_pet
+# Find My Pet
 A web platform to help users find their lost pets.
 
 # Overview
