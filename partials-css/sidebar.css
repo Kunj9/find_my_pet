@@ -1,0 +1,62 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.side-bar {
+  height: 100%;
+  width: 0;
+  z-index: 1;
+  top: 115px;
+  left: 0;
+  background-color: #dcdcdc;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  position: absolute;
+
+}
+
+.side-bar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-bar a:hover {
+  color: #c7c7c7;
+}
+
+.side-bar .close-btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.open-btn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #48d1cc;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.open-btn:hover {
+  background-color: #cfecec;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* For smaller screens, adjust sidebar size dynamically */
+@media screen and (max-height: 450px) {
+  .side-bar {padding-top: 15px;}
+  .side-bar a {font-size: 18px;}
+}

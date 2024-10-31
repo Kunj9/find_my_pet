@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Text color */
+}
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    width: 10px;
+    white-space: nowrap;
+}
+
+.hidden {
+    display: none;
+}
+
+.other-fields {
+    display: none;
+}
+
+.status-label {
+    font-size: 20px;
+    margin-top: 80px;
+    display: inline-block;
+}

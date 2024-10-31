@@ -1,0 +1,14 @@
+body {
+        font-family: "Lato", sans-serif;
+        background-color: #FFFAED;
+}
+
+.container {
+        text-align: center;
+}
+.check-image {
+        background-color: transparent;
+        width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+}
